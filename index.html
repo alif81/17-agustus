@@ -1,0 +1,77 @@
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Roboto:wght@300&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- red container div  -->
+  <div class="container">
+    <!-- smaller red container div -->
+    <div class="small-container">
+      <!-- player health -->
+      <div class="player-div">
+        <div class="player-health"></div>
+        <div id="playerHealth" class="player-blue"></div>
+      </div>
+      <!-- timer -->
+      <div id="timer" class="timer-div">10</div>
+      <!-- enemy health -->
+      <div class="enemy-div">
+        <div class="enemy-health"></div>
+        <div id="enemyHealth" class="enemy-blue"></div>
+      </div>
+    </div>
+    <div id="displayText" class="tie-div">tie</div>
+
+    <canvas> </canvas>
+
+    <div
+      style="
+        font-size: 20px;
+        font-family: 'Merriweather', serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+      "
+    >
+      game ini dapat dimainkan dengan teman, disini player 1 berperan sebagai
+      pahlawan sedangkan player 2 adalah penjajah.
+      <br />
+      player 1 mendapatkan kekuatan dari para leluhur dan merubah wujudnya
+      menjadi lebih ganas
+
+      <br />
+      cara bermain :
+
+      <br />
+      gerak player 1= w, a
+      <br />
+      lompat = d
+      <br />
+      menyerang player 1 = space
+      <br />
+      gerak player 2 = arrowright, arrow left
+      <br />
+      lompat player 2 = arrowup
+    </div>
+
+    <audio
+      src="y2mate.com - Hari Merdeka 17 Agustus  Instrumental Lagu Nasional Indonesia.mp3"
+      autoplay
+    ></audio>
+  </div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/classes.js"></script>
+  <script src="index.js"></script>
+</body>

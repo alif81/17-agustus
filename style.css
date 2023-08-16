@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+}
+
+/*container  */
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+/* small container */
+.small-container {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+/* health bar */
+.player-health {
+  background-color: red;
+  height: 30px;
+  width: 100%;
+}
+.player-div {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border: 4px solid white;
+  border-right: none;
+}
+.player-blue {
+  position: absolute;
+  background-color: rgb(91, 91, 229);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+/* enemy */
+.enemy-health {
+  background-color: red;
+  height: 30px;
+}
+.enemy-div {
+  position: relative;
+  width: 100%;
+  border: 4px solid white;
+  border-left: none;
+}
+.enemy-blue {
+  position: absolute;
+  background-color: rgb(91, 91, 229);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* timer */
+.timer-div {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.tie-div {
+  position: absolute;
+  color: white;
+
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
